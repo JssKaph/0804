@@ -5,7 +5,7 @@
 
 public class Practice {
 	public static void main(String[] args) {
-		for (int i = 0; i <= 7; i++) {
+		for (int i = 1; i <= 7; i++) {
 			System.out.print(fibo(i) + "\t");
 		}
 	}
@@ -15,15 +15,15 @@ public class Practice {
 		else
 			return fibo(n - 1) + fibo(n - 2);
 	}
-//	public static void main(String[] args) {
+
 //		int before =1;
-//		int after =1;
-//		int next = 0;
+//		int after =1;s
+//		int next = 0; //초기화
 //		for(int i=0; i<7; i++) {
 //			System.out.print(before + "\t");
 //			next = after+before;
 //			before = after;
 //			after = next;
 //		}
-//	}
+	
 }
